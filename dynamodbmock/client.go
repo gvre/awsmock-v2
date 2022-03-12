@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/mock"
 )
 
-// Client provides the API client to mock operations call for Amazon Simple Queue Service.
+// Client provides the API client to mock operations call for Amazon DynamoDB Service.
 type Client struct {
 	mock.Mock
 }
